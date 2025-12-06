@@ -16,11 +16,34 @@ Credits: Kaggle
 
 Source: https://www.kaggle.com/c/quora-question-pairs
 
+<h3>Real world/Business Objectives and Constraints</h3>
+<ul>
+  <li>The cost of a mis-classification can be very high.</li>
+  <li>We want a probability of a pair of questions to be duplicates so that you can choose any threshold of choice.</li>
+  <li>No strict latency concerns.</li>
+</ul>
+
+<h3>Data Overview</h3>
+<ul>
+  <li>Data will be in a file Train.csv</li>
+  <li>Train.csv contains 5 columns : qid1, qid2, question1, question2, is_duplicate</li>
+  <li>Size of Train.csv - 60MB</li>
+  <li>Number of rows in Train.csv = 404,290</li>
+</ul>
+
+<h3>Performance Metric</h3>
+<ul>
+  <li>Log loss</li>
+  <li>Binary Confusion Matrix</li>
+</ul>
+
 <h3>Environment Details</h3>
 Python 
 
 Windows
 
 
-<h3>Guide</h3>
+<h3>How to do it again?</h3>
+
+<h3>What have I learned?</h3>
 
