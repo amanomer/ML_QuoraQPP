@@ -44,6 +44,9 @@ Windows
 
 
 <h3>How to do it again?</h3>
+Execute <code>main.py</code> <br>
+Check whether 'final_feature.csv' is present inside data folder<br>
+Now, execute <code>ml_model.py</code>
 
 <h3>What have I learned?</h3>
 
